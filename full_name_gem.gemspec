@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors = ["Amit Gupta"]
   spec.email = ["amit.gupta@atharvasystem.com"]
 
-  spec.summary = "This is just an experiment to release a gem package"
-  spec.description = "Small experiment to launch a rails package, this package will helps in fetching full_name from the model containing first_name and last_name."
+  spec.summary = "This package will let you use full_name from the first_name and last_name field, fetch initial from the same field"
+  spec.description = "Small experiment to launch a rails package, this package will helps in fetching full_name from the model containing first_name and last_name and also initials_name."
   spec.homepage = "https://github.com/amitgdigi/full_name_gem"
   spec.required_ruby_version = ">= 3.1.0"
 
