@@ -6,7 +6,9 @@ require "full_name_gem/railtie" if defined?(Rails)
 
 module FullNameGem
   class Error < StandardError; end
-  def f_name
-    "#{first_name} #{last_name}"
+  module FullName
+    def f_name
+      "#{first_name} #{last_name}"
+    end
   end
 end

@@ -5,7 +5,7 @@ module FullNameGem
   class Railtie < ::Rails::Railtie
     initializer "full_name_gem.model_addition" do
       ActiveSupport.on_load(:active_record) do
-        include FullNameGem
+        include FullNameGem::FullName
       end
     end
   end
